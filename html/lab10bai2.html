@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/button.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <button class="button button1" type="button" onclick="alert('bạn đã sửa thành công')"><img src="../img/img.png" alt="" width="20px"> Sửa</button>
+    <button class="button button2" type="button" onclick="alert('Bạn đã lưu thành công')"><img src="../img/download-removebg-preview.png" width="20px" alt=""> Lưu</button> -->
+    <div class="name">
+    <label for="">Họ và tên</label> <br>
+    <label for=""><input type="text" width="1000"></label></div>
+    <div class="sex">
+    <fieldset>
+        <legend>Giới tính</legend>
+        <label for=""><input id="N" type="radio"> Nam</label>
+        <label for=""><input id="A" type="radio"> Nữ</label>
+    </fieldset>
+    </div>
+     <div class="date">
+    <label for="">Ngày sinh: </label> <br>
+    <label for=""><input type="date" ></label> <br>
+     </div>
+    <div class="diem">
+    <label for="">Điểm</label> <br>
+     <label for=""><input type="number"></label><br>
+    </div>
+    <div class="job">
+    <label for="">Nghề nghiệp</label> <br>
+    <input type="text" list="colors">
+    <datalist id="colors">
+        <option value="Công nghệ thông tin">
+        <option value="Thiết kế đồ họa">
+        <option value="Du lịch khách sạn">
+        <option value="Loggistic">   
+        </datalist>
+    </div>
+    <div class="favorite">
+    <fieldset>
+        <legend>Sở thích</legend>
+        <label for=""><input type="checkbox">Thể thao</label>
+        <label for=""><input type="checkbox">Du lịch</label>
+        <label for=""><input type="checkbox">Âm nhạc</label>
+        <label for=""><input type="checkbox">Ẩm thực</label>
+    </fieldset>
+    <br>
+    </div>
+    Ghi chú 
+    <br>
+    <textarea name="" id="" cols="77" rows="10">
+    </textarea>
+    <hr>
+    <div class="button">
+    <button type="button" onclick="alert('Bạn đã đăng ký thành công')" id="hdt">Đăng ký</button>
+    <a href="../html/indet.html" class="buttonn">
+        <span class="button1">
+            Quay về trang đăng nhập
+        </span>
+    </a>
+    <!-- <button type="button">Nhập lại</button> -->
+    </div>
+    <!-- <script language="javascript">
+        var button = document.getElementById("hdt");
+        button.onclick = function(){
+            alert("Vui lòng nhập thông tin");
+        }
+    </script> -->
+    <!-- <div class="list-button">
+         <a href="../html/indet.html" class="button">
+            <span class="button1">
+                Đăng ký
+            </span>
+        </a>
+        <a href="" class="button">
+            <span class="button1">
+                Quay về trang đăng nhập
+            </span>
+        </a>
+        </div> -->
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.menu{
+    text-align: center;
+}
+.menu>a{
+    Font-variant:small-caps;
+    Color:blue;
+    Text-decoration:none;
+    font-size: larger;
+    text-align: justify;
+}
+.menu>a:visited{
+    color: green;
+}
+.menu>a:is(:hover, :focus){
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+body>img{
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+nav{
+    background-color: red;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li {
+    position: relative;
+}
+.main-menu li a{
+    color: white;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+    height: 30px;
+}
+.main-menu li a:hover{
+    color:hotpink;
+}
+.main-menu li:hover>ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background: red;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    border: 1px solid rgb(118, 119, 118);
+    display: none;
+}
+.main-menu ul.sub-menu a{
+padding: 8px 15px;
+border-bottom:1px solid rgb(69, 69, 69);
+}
+.main-menu ul.sub-menu li:hover a{
+    border-bottom: burlywood;
+    opacity:0.8;
+}
+.main-menu ul li a:hover{
+    color: turquoise;
+}

@@ -1,0 +1,14 @@
+body{
+    background-image: url('../image/bigcityboy.jpg');
+}
+blockquote.instagram-media{
+    position: relative;
+    float:left;
+}
+iframe.spotify{
+    position: relative;
+    float:right;
+}
+blockquote.twitter-tweet{
+    max-height: 360px;
+}

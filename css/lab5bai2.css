@@ -1,0 +1,27 @@
+.column{
+    width: 20%;
+    float: left;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    margin: 5px
+}
+img{
+    max-width: 95%;
+}
+.gia>del{
+    color: grey;
+}
+.gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.sanPham{
+    padding: 10px;
+    text-align: center;
+}
+.sanPham.name{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}

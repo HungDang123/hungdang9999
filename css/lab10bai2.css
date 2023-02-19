@@ -1,0 +1,69 @@
+body {
+    margin: 15px;
+    padding: 0;
+    background-color: bisque;
+    font-family:tahoma;
+    color: black;
+}
+
+.diem input {
+    background-color: rgb(223, 212, 60);
+    border: 1px solid #000;
+    width: 80%;
+}
+
+.date input {
+    border: 1px solid #000;
+    width: 80%;
+}
+
+.name input {
+    border: 1px solid #000;
+    width: 80%;
+}
+
+.job input {
+    border: 1px solid #000;
+    width: 80%;
+}
+
+.favorite {
+    font-variant: small-caps;
+    width: 80%;
+}
+.sex {
+    width: 80%;
+    font-variant: small-caps;
+}
+.button button{
+    padding: 8px 16px;
+    background-color: #3d3d3d;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #ffd154;
+}
+.button a.buttonn{
+    display: inline-block;
+    padding: 6px 16px 6px;
+    background-color: #3d3d3d;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #ffd154;
+    margin-left: 10px;
+}
+.button a.buttonn:hover{
+    background: #8c6e6e;
+
+}
+/* .list-button a.button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3d3d3d;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #ffd154;
+}
+.list-button a.button:hover{
+    background: #8c6e6e;
+
+} */

@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    text-align: center;
+}
+table{
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+    font-family: Arial;
+}
+table, td, th{
+    border: 1px solid #42b603b6;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 6px 10px;
+}
+.header{
+    background: #4dda02b6;
+    color: white;
+}
+.text{
+    text-decoration: none;
+}
+.middle{
+    background: rgb(154, 205, 104);
+    color: white;
+}
+.red{
+    color: red;
+}

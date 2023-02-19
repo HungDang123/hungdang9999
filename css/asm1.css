@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.15;
+    color:#111;
+    background:#abbeca;
+}
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto; 
+}
+h3{
+    font-size: 18px;
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #0a0a0a;
+    display: inline-block;
+    color: rgb(79, 79, 79);
+    font-weight: 600;
+}
+.heading{
+    text-align: center;
+    margin: 40px 0px;
+}
+.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header a img{
+    width: 100%;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+ul.products li .product-top .product-thumb img{
+    display: block;
+}
+ul.products li .product-top a.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #000000;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -41px;
+    width: 100%;
+    transition: 0.25s;
+    opacity:0.9;
+    font-size: 18px;
+}
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+        
+}
+ul.products li {
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom:30px ;
+}
+ul .products li .product-info{
+    padding: 10px 0px;
+}
+ul .products li .product-info a{
+    display: block;
+    text-decoration: none ; 
+}
+ul.products li .product-info a.product-cat{
+    font-size: 11px;
+    color: #273782;
+    text-transform: uppercase;
+    padding: 3px 0px;
+}
+ul.products li .product-info a.product-name{
+    color: #e33482;
+    padding: 3px 0px;
+}
+ul.products li .product-info a.product-price{
+    color: #111;
+    padding: 3px 0px;
+    font-weight: 600;
+}
+nav{
+    font-size: 18px;
+    color: #111;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: 1px solid #abbeca;
+    color: rgb(105, 40, 16);
+    font-weight: 600;
+    background: #abbeca;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.title .page a{
+    width: 100%;
+}
+.page>a{
+    color: rgb(9, 9, 187);
+}
+.page>a:hover{
+    color:#fff;
+    transition: 1s;
+    opacity:0.9;
+}
+.page{
+    color: #abbeca;;
+}
+.footer{
+    width: 100%;
+    line-height: 40px;
+    background: rgb(93, 93, 103);
+    
+}
+.footer p{
+    color: rgb(248, 243, 242);
+    font-size: 20px;
+    font-variant: small-caps;
+    text-align: center;
+    text-transform: uppercase;
+}

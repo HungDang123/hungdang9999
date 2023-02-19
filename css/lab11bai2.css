@@ -1,0 +1,24 @@
+body{
+    width: 100%;
+    text-align: center;
+}
+table{
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+    font-family: Arial;
+}
+table, td, th{
+    border: 1px solid #2c74e0b6;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 6px 10px;
+}
+.header{
+    background: #0080ffb6;
+    color: white;
+}
+.money:nth-child(2n-1){
+    background-color: beige;
+}

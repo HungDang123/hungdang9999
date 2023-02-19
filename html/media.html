@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div align="center">
+    <div style="text-align: center;">
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="normal()">Normal</button>
+    </div>
+    <div class="fullscreen-bg">
+        <video controls loop muted autoplay poster="../image/fptpolytechnic.jpg" id="video1" >
+            <source src="../media/noiDiLaDiVaySao.mp4" type="video/mp4">
+
+        </video>
+        <audio controls>
+            <source src="../media/noiDiLaDiVaySao.mp3">
+        </audio>
+    </div>
+    </div>
+    <script>
+        var myVideo = document.getElementById("video1");
+        function playPause() {
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+        function makeBig() {
+            myVideo.width = 560;
+        }
+        function makeSmall() {
+            myVideo.width = 320;
+        }
+        function normal() {
+            myVideo.width = 420;
+        }
+    </script>
+</body>
+
+</html>
